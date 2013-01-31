@@ -1,16 +1,12 @@
-//for loop
+var myArray = [500,500,500,500,500];
 
-for (var i = 1; i < 10; i++) {
-	// do something
+var total = 0;
+
+for ( var i = 0 ; i < myArray.length ; i++ ) {
+    // add the current element to the total	
+    total = total + myArray[i];
 }
 
-// do while loop
+// after we're done with the loop
+alert("The total is: " + total);
 
-var a = 1;
-
-do {
-  //do something
-  a++;
-} while (a < 10);
-
-// the do will always happen atleast once
