@@ -1,11 +1,16 @@
-var amount = 0;
+//for loop
 
-//create the index
-var i = 0;
-//check the condition
-while (i < 10 ){
-	amount = amount +100;
-	i++; //increment index
+for (var i = 1; i < 10; i++) {
+	// do something
 }
 
-alert("The value is: " + amount);
+// do while loop
+
+var a = 1;
+
+do {
+  //do something
+  a++;
+} while (a < 10);
+
+// the do will always happen atleast once
