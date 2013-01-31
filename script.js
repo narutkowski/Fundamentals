@@ -1,30 +1,9 @@
-var grade = "Premium";
-
-if ( grade === "Regular") {
-     alert("It's $3.15");
-}
-if ( grade === "Premium") {
-     alert("It's $3.35");
-}
-if ( grade === "Diesel") {
-     alert("It's $3.47");
+function myFunction(){
+	var a = 5;
+	var b = 10;
+	var c = 20;
+	var d = a + b + c;
+	alert("The value of d is: " + d );
 }
 
-//instead of using the above if statements, we can use a switch statement
-
-var grade = "Premium";
-
-switch (grade) {
-	case "Regular":
-		alert("It's $3.15");
-		break; //will jump us out of the switch statement
-	case "Premium":
-		alert("It's $3.35");
-		break;
-	case "Diesel":
-		alert("It's $3.47");
-		break;
-	default:
-		alert("That's not a valid grade");
-}
-
+myFunction(); //calling the myFuction fuction above
