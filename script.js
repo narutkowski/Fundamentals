@@ -1,11 +1,10 @@
-var balance = 5000;
+var a = 123;
+var b = "123";
 
-if (balance >= 0) {
-  alert("The balance is positive");
-  if (balance > 10000) {
-    alert("The balance is large");
-  }
-}else {
-  alert("The balance is negative");
+//equality check with strict equality operator
+if (a===b) {
+  alert("Yes, they ARE equal");
+} else {
+  alert("No, they're NOT equal")
 }
 
